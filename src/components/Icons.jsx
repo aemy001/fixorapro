@@ -23,7 +23,7 @@ export const SideIcon2 = () => (
     height="20px"
     viewBox="0 0 28 28"
     fill="none"
-     stroke="currentColor"
+    stroke="currentColor"
   >
     <path
       fill-rule="evenodd"
@@ -127,7 +127,7 @@ export const SideIcon7 = () => (
   </svg>
 );
 export const SideIcon8 = () => (
-     <svg
+  <svg
     xmlns="http://www.w3.org/2000/svg"
     class="w-4 h-4 fill-current"
     viewBox="0 0 16 16"
@@ -137,9 +137,7 @@ export const SideIcon8 = () => (
       clip-rule="evenodd"
       d="M4.83325 4.00004C4.83325 2.25114 6.25102 0.833374 7.99992 0.833374C9.74882 0.833374 11.1666 2.25114 11.1666 4.00004C11.1666 5.74894 9.74882 7.16671 7.99992 7.16671C6.25102 7.16671 4.83325 5.74894 4.83325 4.00004ZM7.99992 1.83337C6.8033 1.83337 5.83325 2.80342 5.83325 4.00004C5.83325 5.19666 6.8033 6.16671 7.99992 6.16671C9.19654 6.16671 10.1666 5.19666 10.1666 4.00004C10.1666 2.80342 9.19654 1.83337 7.99992 1.83337Z"
     />
-    <path
-      d="M11.8333 11.1111C11.8333 10.835 11.6094 10.6111 11.3333 10.6111C11.0571 10.6111 10.8333 10.835 10.8333 11.1111V11.5H10.4443C10.1681 11.5 9.94425 11.7239 9.94425 12C9.94425 12.2762 10.1681 12.5 10.4443 12.5H10.8333V12.8889C10.8333 13.1651 11.0571 13.3889 11.3333 13.3889C11.6094 13.3889 11.8333 13.1651 11.8333 12.8889V12.5H12.222C12.4982 12.5 12.722 12.2762 12.722 12C12.722 11.7239 12.4982 11.5 12.222 11.5H11.8333V11.1111Z"
-    />
+    <path d="M11.8333 11.1111C11.8333 10.835 11.6094 10.6111 11.3333 10.6111C11.0571 10.6111 10.8333 10.835 10.8333 11.1111V11.5H10.4443C10.1681 11.5 9.94425 11.7239 9.94425 12C9.94425 12.2762 10.1681 12.5 10.4443 12.5H10.8333V12.8889C10.8333 13.1651 11.0571 13.3889 11.3333 13.3889C11.6094 13.3889 11.8333 13.1651 11.8333 12.8889V12.5H12.222C12.4982 12.5 12.722 12.2762 12.722 12C12.722 11.7239 12.4982 11.5 12.222 11.5H11.8333V11.1111Z" />
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -147,11 +145,51 @@ export const SideIcon8 = () => (
     />
   </svg>
 );
-export const PageIcon1=()=>(
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21.2099 15.8901C20.5737 17.3946 19.5787 18.7203 18.3118 19.7514C17.0449 20.7825 15.5447 21.4875 13.9424 21.8049C12.34 22.1222 10.6843 22.0422 9.12006 21.5719C7.55578 21.1015 6.13054 20.2551 4.96893 19.1067C3.80733 17.9583 2.94473 16.5428 2.45655 14.984C1.96837 13.4252 1.86948 11.7706 2.16851 10.1647C2.46755 8.55886 3.15541 7.05071 4.17196 5.77211C5.18851 4.49351 6.5028 3.4834 7.99992 2.83008" stroke="#253053" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2V12H22Z" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+export const PageIcon1 = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+  >
+    <path
+      d="M21.2099 15.8901C20.5737 17.3946 19.5787 18.7203 18.3118 19.7514C17.0449 20.7825 15.5447 21.4875 13.9424 21.8049C12.34 22.1222 10.6843 22.0422 9.12006 21.5719C7.55578 21.1015 6.13054 20.2551 4.96893 19.1067C3.80733 17.9583 2.94473 16.5428 2.45655 14.984C1.96837 13.4252 1.86948 11.7706 2.16851 10.1647C2.46755 8.55886 3.15541 7.05071 4.17196 5.77211C5.18851 4.49351 6.5028 3.4834 7.99992 2.83008"
+      stroke="#253053"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></path>
+    <path
+      d="M22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2V12H22Z"
+      fill="currentColor"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></path>
+  </svg>
 );
-export const PageIcon3=()=>(
-    <svg width="30px" height="30px" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><g id="SVGRepo_iconCarrier"><path d="M3 19V18C3 15.7909 4.79086 14 7 14H11C13.2091 14 15 15.7909 15 18V19M15 11C16.6569 11 18 9.65685 18 8C18 6.34315 16.6569 5 15 5M21 19V18C21 15.7909 19.2091 14 17 14H16.5M12 8C12 9.65685 10.6569 11 9 11C7.34315 11 6 9.65685 6 8C6 6.34315 7.34315 5 9 5C10.6569 5 12 6.34315 12 8Z" stroke="#253053" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stock__heading__color"></path></g></svg>
+export const PageIcon3 = () => (
+  <svg
+    width="30px"
+    height="30px"
+    viewBox="-2.4 -2.4 28.80 28.80"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class=""
+  >
+    <g id="SVGRepo_iconCarrier">
+      <path
+        d="M3 19V18C3 15.7909 4.79086 14 7 14H11C13.2091 14 15 15.7909 15 18V19M15 11C16.6569 11 18 9.65685 18 8C18 6.34315 16.6569 5 15 5M21 19V18C21 15.7909 19.2091 14 17 14H16.5M12 8C12 9.65685 10.6569 11 9 11C7.34315 11 6 9.65685 6 8C6 6.34315 7.34315 5 9 5C10.6569 5 12 6.34315 12 8Z"
+        stroke="#253053"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="stock__heading__color"
+      ></path>
+    </g>
+  </svg>
 );
 export const DashbaordIcon1 = () => (
   <svg
@@ -214,23 +252,782 @@ export const ArrowDown = () => (
   </svg>
 );
 export const PersonalIcon = () => (
-    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path></svg>
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 1024 1024"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path>
+  </svg>
+);
+export const PersonIcon = () => (
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 1024 1024"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path>
+  </svg>
+);
+export const BuildingIcon = () => (
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM16.5 6.75v15h5.25a.75.75 0 000-1.5H21v-12a.75.75 0 000-1.5h-4.5zm1.5 4.5a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 2.25a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75v-.008a.75.75 0 00-.75-.75h-.008zM18 17.25a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z"
+      clip-rule="evenodd"
+    ></path>
+  </svg>
 );
 export const SupplierIcon = () => (
-    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM16.5 6.75v15h5.25a.75.75 0 000-1.5H21v-12a.75.75 0 000-1.5h-4.5zm1.5 4.5a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 2.25a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75v-.008a.75.75 0 00-.75-.75h-.008zM18 17.25a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clip-rule="evenodd"></path></svg>
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM16.5 6.75v15h5.25a.75.75 0 000-1.5H21v-12a.75.75 0 000-1.5h-4.5zm1.5 4.5a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 2.25a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75v-.008a.75.75 0 00-.75-.75h-.008zM18 17.25a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z"
+      clip-rule="evenodd"
+    ></path>
+  </svg>
 );
-export const SortIcon =() =>(
-    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="sorticon icon" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"></path></svg>
-)
+export const SortIcon = () => (
+ <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="sorticon icon" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"></path></svg>
+);
 export const FilterIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 21 19" fill="none" class=" cursor_pointer"><path d="M20 1H1L8.6 9.93444V16.1111L12.4 18V9.93444L20 1Z" stroke="#253053" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="19"
+    viewBox="0 0 21 19"
+    fill="none"
+    class=" cursor_pointer"
+  >
+    <path
+      d="M20 1H1L8.6 9.93444V16.1111L12.4 18V9.93444L20 1Z"
+      stroke="#253053"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></path>
+  </svg>
 );
-export const DatePickrIcon = () => (
-    <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" d="M17.1111 8.8C10.4288 8.8 6.6823 8.8 0 8.8V18.7C0 19.5752 0.270416 20.4146 0.751759 21.0335C1.2331 21.6523 1.88594 22 2.56667 22H14.5444C15.2252 22 15.878 21.6523 16.3594 21.0335C16.8407 20.4146 17.1111 19.5752 17.1111 18.7V8.8ZM4.27778 6.6C4.05087 6.6 3.83326 6.48411 3.67281 6.27782C3.51236 6.07153 3.42222 5.79174 3.42222 5.5V1.1C3.42222 0.808262 3.51236 0.528472 3.67281 0.322182C3.83326 0.115892 4.05087 0 4.27778 0C4.50468 0 4.7223 0.115892 4.88275 0.322182C5.04319 0.528472 5.13333 0.808262 5.13333 1.1V5.5C5.13333 5.79174 5.04319 6.07153 4.88275 6.27782C4.7223 6.48411 4.50468 6.6 4.27778 6.6ZM12.8333 6.6C12.6064 6.6 12.3888 6.48411 12.2284 6.27782C12.0679 6.07153 11.9778 5.79174 11.9778 5.5V1.1C11.9778 0.808262 12.0679 0.528472 12.2284 0.322182C12.3888 0.115892 12.6064 0 12.8333 0C13.0602 0 13.2779 0.115892 13.4383 0.322182C13.5988 0.528472 13.6889 0.808262 13.6889 1.1V5.5C13.6889 5.79174 13.5988 6.07153 13.4383 6.27782C13.2779 6.48411 13.0602 6.6 12.8333 6.6Z" fill="#BAC3C7"></path><path d="M14.5444 2.44461H13.6889V4.88906C13.6889 5.10516 13.5988 5.31241 13.4383 5.46522C13.2779 5.61802 13.0602 5.70387 12.8333 5.70387C12.6064 5.70387 12.3888 5.61802 12.2284 5.46522C12.0679 5.31241 11.9778 5.10516 11.9778 4.88906V2.44461H5.13333V4.88906C5.13333 5.10516 5.04319 5.31241 4.88275 5.46522C4.7223 5.61802 4.50468 5.70387 4.27778 5.70387C4.05087 5.70387 3.83326 5.61802 3.67281 5.46522C3.51236 5.31241 3.42222 5.10516 3.42222 4.88906V2.44461H2.56667C1.88594 2.44461 1.2331 2.70215 0.751759 3.16057C0.270416 3.61899 0 4.24075 0 4.88906V7.3335H17.1111V4.88906C17.1111 4.24075 16.8407 3.61899 16.3594 3.16057C15.878 2.70215 15.2252 2.44461 14.5444 2.44461Z" fill="#253053"></path><rect x="3.25977" y="9.77806" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect><rect x="3.25977" y="17.7257" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect><rect x="3.25977" y="13.7516" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect><rect x="11.7109" y="9.77806" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect><rect x="11.7109" y="17.7257" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect><rect x="11.7109" y="13.7516" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect><rect x="7.48633" y="9.77806" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect><rect x="7.48633" y="17.7257" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect><rect x="7.48633" y="13.7516" width="2.59632" height="2.34421" rx="1.1721" fill="#58627E"></rect></svg>
+export const DatePickerIcon = () => (
+  <svg
+    width="18"
+    height="22"
+    viewBox="0 0 18 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      opacity="0.5"
+      d="M17.1111 8.8C10.4288 8.8 6.6823 8.8 0 8.8V18.7C0 19.5752 0.270416 20.4146 0.751759 21.0335C1.2331 21.6523 1.88594 22 2.56667 22H14.5444C15.2252 22 15.878 21.6523 16.3594 21.0335C16.8407 20.4146 17.1111 19.5752 17.1111 18.7V8.8ZM4.27778 6.6C4.05087 6.6 3.83326 6.48411 3.67281 6.27782C3.51236 6.07153 3.42222 5.79174 3.42222 5.5V1.1C3.42222 0.808262 3.51236 0.528472 3.67281 0.322182C3.83326 0.115892 4.05087 0 4.27778 0C4.50468 0 4.7223 0.115892 4.88275 0.322182C5.04319 0.528472 5.13333 0.808262 5.13333 1.1V5.5C5.13333 5.79174 5.04319 6.07153 4.88275 6.27782C4.7223 6.48411 4.50468 6.6 4.27778 6.6ZM12.8333 6.6C12.6064 6.6 12.3888 6.48411 12.2284 6.27782C12.0679 6.07153 11.9778 5.79174 11.9778 5.5V1.1C11.9778 0.808262 12.0679 0.528472 12.2284 0.322182C12.3888 0.115892 12.6064 0 12.8333 0C13.0602 0 13.2779 0.115892 13.4383 0.322182C13.5988 0.528472 13.6889 0.808262 13.6889 1.1V5.5C13.6889 5.79174 13.5988 6.07153 13.4383 6.27782C13.2779 6.48411 13.0602 6.6 12.8333 6.6Z"
+      fill="#BAC3C7"
+    ></path>
+    <path
+      d="M14.5444 2.44461H13.6889V4.88906C13.6889 5.10516 13.5988 5.31241 13.4383 5.46522C13.2779 5.61802 13.0602 5.70387 12.8333 5.70387C12.6064 5.70387 12.3888 5.61802 12.2284 5.46522C12.0679 5.31241 11.9778 5.10516 11.9778 4.88906V2.44461H5.13333V4.88906C5.13333 5.10516 5.04319 5.31241 4.88275 5.46522C4.7223 5.61802 4.50468 5.70387 4.27778 5.70387C4.05087 5.70387 3.83326 5.61802 3.67281 5.46522C3.51236 5.31241 3.42222 5.10516 3.42222 4.88906V2.44461H2.56667C1.88594 2.44461 1.2331 2.70215 0.751759 3.16057C0.270416 3.61899 0 4.24075 0 4.88906V7.3335H17.1111V4.88906C17.1111 4.24075 16.8407 3.61899 16.3594 3.16057C15.878 2.70215 15.2252 2.44461 14.5444 2.44461Z"
+      fill="#253053"
+    ></path>
+    <rect
+      x="3.25977"
+      y="9.77806"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+    <rect
+      x="3.25977"
+      y="17.7257"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+    <rect
+      x="3.25977"
+      y="13.7516"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+    <rect
+      x="11.7109"
+      y="9.77806"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+    <rect
+      x="11.7109"
+      y="17.7257"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+    <rect
+      x="11.7109"
+      y="13.7516"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+    <rect
+      x="7.48633"
+      y="9.77806"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+    <rect
+      x="7.48633"
+      y="17.7257"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+    <rect
+      x="7.48633"
+      y="13.7516"
+      width="2.59632"
+      height="2.34421"
+      rx="1.1721"
+      fill="#58627E"
+    ></rect>
+  </svg>
 );
 export const AddBtnIcon = () => (
-<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="add_icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+  <svg
+    stroke="currentColor"
+    fill="none"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    className="add_icon"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line x1="12" y1="5" x2="12" y2="19"></line>
+    <line x1="5" y1="12" x2="19" y2="12"></line>
+  </svg>
 );
+export const Bell = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="17"
+    height="18"
+    viewBox="0 0 17 18"
+    fill="none"
+  >
+    <g clip-path="url(#clip0_758_1699)">
+      <path
+        d="M12.75 6.14416C12.75 4.98653 12.3022 3.87631 11.5052 3.05774C10.7082 2.23917 9.62717 1.7793 8.5 1.7793C7.37283 1.7793 6.29183 2.23917 5.4948 3.05774C4.69777 3.87631 4.25 4.98653 4.25 6.14416C4.25 11.2365 2.125 12.6915 2.125 12.6915H14.875C14.875 12.6915 12.75 11.2365 12.75 6.14416Z"
+        stroke="#253053"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+      <path
+        d="M9.72549 15.6016C9.60096 15.822 9.42221 16.0051 9.20715 16.1323C8.99209 16.2595 8.74826 16.3265 8.50007 16.3265C8.25189 16.3265 8.00806 16.2595 7.793 16.1323C7.57794 16.0051 7.39919 15.822 7.27466 15.6016"
+        stroke="#253053"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_758_1699">
+        <rect
+          width="17"
+          height="17.4595"
+          fill="#253053"
+          transform="translate(0 0.324219)"
+        ></rect>
+      </clipPath>
+    </defs>
+  </svg>
+);
+export const Search = () => (
+  <svg
+    stroke="currentColor"
+    fill="none"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="fa-search fa-search__v1"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="11" cy="11" r="8"></circle>
+    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+);
+
+export const SearchIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="14"
+    height="14"
+    viewBox="0 0 14 14"
+    fill="none"
+    class="svg_search"
+  >
+    <path
+      d="M5.28701 9.17212C7.65466 9.17212 9.57401 7.34273 9.57401 5.08606C9.57401 2.82939 7.65466 1 5.28701 1C2.91936 1 1 2.82939 1 5.08606C1 7.34273 2.91936 9.17212 5.28701 9.17212Z"
+      stroke="#253053"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></path>
+    <path
+      d="M12.9997 12.4405L8.28394 7.9458"
+      stroke="#253053"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></path>
+  </svg>
+);
+
 export const MoreVerticalIcon = () => (
-<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="25" width="25" xmlns="http://www.w3.org/2000/svg" ><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+  <svg
+    stroke="currentColor"
+    fill="none"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    height="25"
+    width="25"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="12" cy="12" r="1"></circle>
+    <circle cx="12" cy="5" r="1"></circle>
+    <circle cx="12" cy="19" r="1"></circle>
+  </svg>
+);
+export const MoreHorizontalIcon = () => (
+  <svg
+    stroke="currentColor"
+    fill="none"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    className="icon_dropdown"
+    height="1em"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="12" cy="12" r="1"></circle>
+    <circle cx="19" cy="12" r="1"></circle>
+    <circle cx="5" cy="12" r="1"></circle>
+  </svg>
+);
+export const NoResultsIcon = () => (
+  <svg
+    width="324"
+    height="261"
+    viewBox="0 0 324 261"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="158" cy="132" r="80" fill="#C8E1FD"></circle>
+    <circle cx="74" cy="72" r="8" fill="#C8E1FD" fill-opacity="0.44"></circle>
+    <circle cx="246" cy="178" r="6" fill="#E7F2FE"></circle>
+    <circle cx="73" cy="190" r="10" fill="#C8E1FD" fill-opacity="0.44"></circle>
+    <circle cx="258" cy="90" r="10" fill="#C8E1FD" fill-opacity="0.44"></circle>
+    <circle cx="239" cy="63" r="7" fill="#C8E1FD" fill-opacity="0.44"></circle>
+    <g filter="url(#filter0_dd_1041_5192)">
+      <path
+        d="M104.638 192.214L157.089 167.755C159.722 166.527 160.862 163.397 159.634 160.763L128.658 94.336L107.683 86.7016L64.7681 106.713C62.1346 107.941 60.9952 111.071 62.2233 113.705L97.6458 189.669C98.8738 192.302 102.004 193.442 104.638 192.214Z"
+        fill="url(#paint0_linear_1041_5192)"
+      ></path>
+      <path
+        d="M107.683 86.7012L128.659 94.3356L114.354 101.006L107.683 86.7012Z"
+        fill="#DADEE4"
+      ></path>
+    </g>
+    <g filter="url(#filter1_dd_1041_5192)">
+      <path
+        d="M129.71 174.339H187.584C190.49 174.339 192.845 171.984 192.845 169.078V95.7837L177.062 80H129.71C126.805 80 124.449 82.3555 124.449 85.2612V169.078C124.449 171.984 126.805 174.339 129.71 174.339Z"
+        fill="url(#paint1_linear_1041_5192)"
+      ></path>
+      <path d="M177.062 80L192.846 95.7837H177.062V80Z" fill="#DADEE4"></path>
+    </g>
+    <g filter="url(#filter2_dd_1041_5192)">
+      <path
+        d="M159.471 167.724L211.922 192.182C214.556 193.41 217.686 192.271 218.914 189.638L249.89 123.21L242.255 102.235L199.341 82.2235C196.707 80.9955 193.577 82.1348 192.349 84.7683L156.926 160.732C155.698 163.366 156.838 166.496 159.471 167.724Z"
+        fill="url(#paint2_linear_1041_5192)"
+      ></path>
+      <path
+        d="M242.67 102L250.305 122.975L236 116.305L242.67 102Z"
+        fill="#DADEE4"
+      ></path>
+    </g>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M185.755 179.737C173.618 191.871 154.829 193.24 141.188 183.872C139.445 182.653 137.786 181.284 136.239 179.737C135.442 178.943 134.691 178.124 133.984 177.261C132.569 175.538 131.329 173.701 130.314 171.803C128.525 168.597 127.308 165.195 126.644 161.679C124.501 150.651 127.705 138.781 136.239 130.252C144.792 121.697 156.664 118.514 167.694 120.636C171.208 121.321 174.613 122.537 177.82 124.305C179.721 125.343 181.533 126.583 183.258 127.997C184.119 128.702 184.938 129.455 185.732 130.252C187.282 131.799 188.671 133.455 189.868 135.201C199.24 148.837 197.869 167.625 185.755 179.737Z"
+      fill="white"
+      fill-opacity="0.1"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M182.359 177.347C169.732 189.976 149.27 189.973 136.641 177.347C124.028 164.734 124.028 144.27 136.657 131.643C149.27 119.03 169.732 119.03 182.345 131.643C194.971 144.27 194.971 164.734 182.359 177.347ZM188.839 125.156C172.632 108.948 146.368 108.948 130.161 125.156C113.956 141.361 113.942 167.64 130.147 183.848C144.897 198.594 168.017 199.924 184.278 187.816C185.867 186.632 187.396 185.305 188.855 183.848C190.312 182.389 191.64 180.859 192.821 179.271C204.929 163.007 203.587 139.904 188.839 125.156Z"
+      fill="#CFD2D9"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M252.622 244.942L251.942 245.622C247.44 250.126 240.069 250.126 235.565 245.622L194 204.057L211.057 187L252.622 228.565C257.126 233.069 257.126 240.438 252.622 244.942Z"
+      fill="#7ABAFF"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M193.717 178L206 190.283L197.28 199L185 186.717C186.621 185.509 188.179 184.154 189.67 182.668C191.157 181.182 192.511 179.621 193.717 178Z"
+      fill="#D4D7DD"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M252 228.054L235.051 245L232 241.946L248.946 225L252 228.054Z"
+      fill="#2589F6"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M212 187.587L194.587 205L192 202.413L209.413 185L212 187.587Z"
+      fill="#2589F6"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M174 127.299L131.296 170C129.688 167.118 128.595 164.059 128 160.898L164.897 124C168.057 124.618 171.118 125.709 174 127.299Z"
+      fill="white"
+      fill-opacity="0.5"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M188 137.448L141.833 181C140.18 179.912 138.606 178.687 137.138 177.302C136.383 176.59 135.669 175.859 135 175.087L181.729 131C182.548 131.633 183.325 132.307 184.078 133.02C185.545 134.404 186.866 135.886 188 137.448Z"
+      fill="white"
+      fill-opacity="0.5"
+    ></path>
+    <path
+      d="M11.6049 133V136"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M4.86694 134.625L7.31837 137.149"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M2 141.343H5.46629"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M4.58655 148.18L7.03798 145.656"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M11.6049 149V146"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M16.6049 147L14.6049 145"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M20.6049 142H17.6049"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M18.6049 135L16.6049 137"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M172.605 2V4"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M166.605 8H168.605"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M172.605 14V12"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M177.605 8H175.605"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M56.6049 86V89"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M47.6049 95H50.6049"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M56.6049 103V100"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M64.6049 95H61.6049"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      d="M271.859 195.038C274.249 195.038 276.187 196.977 276.187 199.367C276.187 201.758 274.249 203.696 271.859 203.696C269.469 203.696 267.531 201.758 267.531 199.367"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M291.667 155.763C294.236 154.962 298.176 151.819 299.087 148.438C299.914 151.427 303.381 154.962 306.508 155.229C302.987 156.476 299.621 160.179 299.087 163.088C298.724 160.123 294.068 156.196 291.667 155.763Z"
+      fill="#E4EFFB"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M27.8777 193.705C29.163 193.305 31.1317 191.734 31.5876 190.043C32.0011 191.537 33.7338 193.305 35.2976 193.439C33.5377 194.061 31.8551 195.913 31.5876 197.368C31.406 195.885 29.0781 193.921 27.8777 193.705Z"
+      fill="#E4EFFB"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M51.7298 54.597C51.7298 56.4517 50.2272 57.9539 48.3739 57.9539C46.5198 57.9539 45.0179 56.4517 45.0179 54.597C45.0179 52.7433 46.5198 51.2402 48.3739 51.2402C50.2272 51.2402 51.7298 52.7433 51.7298 54.597Z"
+      fill="#C8E1FD"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M275.824 63.6105C275.824 66.7092 273.312 69.2211 270.215 69.2211C267.116 69.2211 264.605 66.7092 264.605 63.6105C264.605 60.5119 267.116 58 270.215 58C273.312 58 275.824 60.5119 275.824 63.6105Z"
+      fill="#E4EFFB"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M323.52 48.4095C323.52 50.8679 321.528 52.8601 319.071 52.8601C316.613 52.8601 314.622 50.8679 314.622 48.4095C314.622 45.9512 316.613 43.959 319.071 43.959C321.528 43.959 323.52 45.9512 323.52 48.4095Z"
+      fill="#E4EFFB"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M114.449 256.268C114.449 257.817 113.193 259.073 111.644 259.073C110.096 259.073 108.84 257.817 108.84 256.268C108.84 254.718 110.096 253.462 111.644 253.462C113.193 253.462 114.449 254.718 114.449 256.268Z"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M112.78 33.0316C112.78 34.8862 111.277 36.3884 109.424 36.3884C107.571 36.3884 106.068 34.8862 106.068 33.0316C106.068 31.1779 107.571 29.6748 109.424 29.6748C111.277 29.6748 112.78 31.1779 112.78 33.0316Z"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M198.384 237.336C196.239 238.152 193.839 237.075 193.023 234.93C192.208 232.785 193.284 230.384 195.429 229.569C197.573 228.753 199.973 229.829 200.789 231.974C201.606 234.119 200.528 236.52 198.384 237.336Z"
+      stroke="#C8E1FD"
+      stroke-width="2.921"
+      stroke-linecap="round"
+    ></path>
+    <defs>
+      <filter
+        id="filter0_dd_1041_5192"
+        x="39.9998"
+        y="80.0312"
+        width="141.857"
+        height="154.406"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feMorphology
+          radius="4"
+          operator="erode"
+          in="SourceAlpha"
+          result="effect1_dropShadow_1041_5192"
+        ></feMorphology>
+        <feOffset dy="8"></feOffset>
+        <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.03 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_1041_5192"
+        ></feBlend>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feMorphology
+          radius="4"
+          operator="erode"
+          in="SourceAlpha"
+          result="effect2_dropShadow_1041_5192"
+        ></feMorphology>
+        <feOffset dy="20"></feOffset>
+        <feGaussianBlur stdDeviation="12"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.08 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="effect1_dropShadow_1041_5192"
+          result="effect2_dropShadow_1041_5192"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect2_dropShadow_1041_5192"
+          result="shape"
+        ></feBlend>
+      </filter>
+      <filter
+        id="filter1_dd_1041_5192"
+        x="104.449"
+        y="80"
+        width="108.397"
+        height="134.34"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feMorphology
+          radius="4"
+          operator="erode"
+          in="SourceAlpha"
+          result="effect1_dropShadow_1041_5192"
+        ></feMorphology>
+        <feOffset dy="8"></feOffset>
+        <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.03 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_1041_5192"
+        ></feBlend>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feMorphology
+          radius="4"
+          operator="erode"
+          in="SourceAlpha"
+          result="effect2_dropShadow_1041_5192"
+        ></feMorphology>
+        <feOffset dy="20"></feOffset>
+        <feGaussianBlur stdDeviation="12"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.08 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="effect1_dropShadow_1041_5192"
+          result="effect2_dropShadow_1041_5192"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect2_dropShadow_1041_5192"
+          result="shape"
+        ></feBlend>
+      </filter>
+      <filter
+        id="filter2_dd_1041_5192"
+        x="134.703"
+        y="80"
+        width="141.857"
+        height="154.406"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feMorphology
+          radius="4"
+          operator="erode"
+          in="SourceAlpha"
+          result="effect1_dropShadow_1041_5192"
+        ></feMorphology>
+        <feOffset dy="8"></feOffset>
+        <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.03 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_1041_5192"
+        ></feBlend>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feMorphology
+          radius="4"
+          operator="erode"
+          in="SourceAlpha"
+          result="effect2_dropShadow_1041_5192"
+        ></feMorphology>
+        <feOffset dy="20"></feOffset>
+        <feGaussianBlur stdDeviation="12"></feGaussianBlur>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.08 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="effect1_dropShadow_1041_5192"
+          result="effect2_dropShadow_1041_5192"
+        ></feBlend>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect2_dropShadow_1041_5192"
+          result="shape"
+        ></feBlend>
+      </filter>
+      <linearGradient
+        id="paint0_linear_1041_5192"
+        x1="101.556"
+        y1="192.418"
+        x2="59.7566"
+        y2="117.009"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#E4E7EC"></stop>
+        <stop offset="1" stop-color="#F9FAFB"></stop>
+      </linearGradient>
+      <linearGradient
+        id="paint1_linear_1041_5192"
+        x1="126.831"
+        y1="173.223"
+        x2="120.817"
+        y2="87.2131"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#E4E7EC"></stop>
+        <stop offset="1" stop-color="#F9FAFB"></stop>
+      </linearGradient>
+      <linearGradient
+        id="paint2_linear_1041_5192"
+        x1="157.333"
+        y1="165.495"
+        x2="188.232"
+        y2="85.0024"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#E4E7EC"></stop>
+        <stop offset="1" stop-color="#F9FAFB"></stop>
+      </linearGradient>
+    </defs>
+  </svg>
 );

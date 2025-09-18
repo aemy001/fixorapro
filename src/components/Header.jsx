@@ -1,4 +1,4 @@
-import { Search, Bell, SlidersHorizontal, Plus } from "lucide-react";
+import {Search, AddBtnIcon,Bell } from "./Icons";
 
 export default function Header() {
   return (
@@ -12,7 +12,8 @@ export default function Header() {
         </h5>
       </div>
    <div className="relative w-[280px] search">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-4 h-4" />
+    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-4 h-4">  <Search  /> </span>
+         
           <input
             type="text"
             placeholder="Global Search"
@@ -24,20 +25,13 @@ export default function Header() {
 
       {/* Right: Actions + Profile */}
       <div className="flex items-center gap-3">
-        {/* Purple Button */}
-        <button className="flex items-center gap-2 px-3 py-2 rounded-lg bg-gradient-to-r from-[#9333EA] to-[#C084FC] text-white text-base font-medium shadow-sm hover:opacity-90 transition">
-          ▶ How to start?
-        </button>
 
         {/* Round Buttons */}
         <button className="w-9 h-9 flex items-center justify-center rounded-full bg-[#2589f6] text-white hover:opacity-90">
-          <Plus className="w-4 h-4" />
+          <AddBtnIcon  />
         </button>
         <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300">
-          <SlidersHorizontal className="w-4 h-4" />
-        </button>
-        <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300">
-          <Bell className="w-4 h-4" />
+          <Bell />
         </button>
 
         {/* Profile */}

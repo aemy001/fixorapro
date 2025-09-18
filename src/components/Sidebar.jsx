@@ -134,34 +134,6 @@ export default function Sidebar() {
           </Link>
         </div>
       )}
-       {/* Off-side Submenu settings */}
-      {/* {openStock && (
-        <div
-          className="fixed left-[100px] w-[220px] bg-[#072a2f] rounded-md shadow-lg z-50"
-          style={{ top: submenuTop }}
-        >
-          <Link
-            href="/stock/items"
-            className={`block px-4 py-3 text-sm ${
-              router.pathname === "/stock/items"
-                ? "bg-[#0f4e73] text-white"
-                : "text-white hover:bg-[#0f4e73]"
-            }`}
-          >
-            Items
-          </Link>
-          <Link
-            href="/stock/goods-reception"
-            className={`block px-4 py-3 text-sm ${
-              router.pathname === "/stock/goods-reception"
-                ? "bg-[#0f4e73] text-white"
-                : "text-white hover:bg-[#0f4e73]"
-            }`}
-          >
-            Goods Reception
-          </Link>
-        </div>
-      )} */}
     </>
   );
 }
