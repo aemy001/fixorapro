@@ -20,9 +20,8 @@ module.exports = {
       //   border: 'var(--color-border)',
       //   muted: 'var(--color-muted)',
       // },
-      //  fontFamily: {
-      //   sans: ['var(--font-sans)'],
-      //     heading: ['var(--font-heading)', 'sans-serif'],
+      // fontFamily: {
+      //   sans: ["var(--font-roboto)", "ui-sans-serif", "system-ui"],
       // },
     },
   },

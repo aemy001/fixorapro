@@ -2,22 +2,22 @@ import {Search, AddBtnIcon,Bell } from "./Icons";
 
 export default function Header() {
   return (
-    <header className="w-full flex items-center justify-between border border-b border-[#898fa026] bg-[#F0F3F7] px-6 py-4 ">
+    <header className="w-full flex items-center justify-between border border-b border-[#898fa026] bg-[#F0F3F7] px-6 py-3 ">
       {/* Left: Welcome & Date */}
-     <div className="flex items-center gap-6">
-       <div className="flex flex-col ">
-        <h6 className="font-medium text-sm">Welcome Demo</h6>
-        <h5 className="font-bold text-base">
+     <div className="flex items-center gap-4">
+       <div className="flex flex-col">
+        <p className="font-normal text-[13px] text-[#253053]">Welcome Demo</p>
+        <h5 className="font-bold text-base leading-[1]  ">
           17/09/2025 12:38:38 AM
         </h5>
       </div>
    <div className="relative w-[280px] search">
-    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-4 h-4">  <Search  /> </span>
+    <span className="absolute top-3 left-2 translate-y-0 text-gray-400 w-4 h-4">  <Search  /> </span>
          
           <input
             type="text"
             placeholder="Global Search"
-            className="w-full rounded-full border border-gray-200 bg-white pl-9 pr-3 py-2 text-sm "
+            className="w-full rounded-full border border-gray-200 bg-white pl-8 pr-3 py-2 text-sm "
           />
         </div>
       </div>
@@ -27,15 +27,15 @@ export default function Header() {
       <div className="flex items-center gap-3">
 
         {/* Round Buttons */}
-        <button className="w-9 h-9 flex items-center justify-center rounded-full bg-[#2589f6] text-white hover:opacity-90">
+        <button className="w-9 h-9 flex items-center justify-center rounded-full bg-[#0878AC] text-white hover:opacity-90">
           <AddBtnIcon  />
         </button>
-        <button className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300">
+        <button className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300">
           <Bell />
         </button>
 
         {/* Profile */}
-        <div className="flex items-center gap-2 bg-gray-200 rounded-full px-2 py-1 cursor-pointer hover:bg-gray-300">
+        <div className="flex items-center gap-2 bg-gray-200 rounded-full px-1 py-1 cursor-pointer hover:bg-gray-300">
           <img
             src="/avatar.png"
             alt="User Avatar"

@@ -145,6 +145,13 @@ export const SideIcon8 = () => (
     />
   </svg>
 );
+export const SideIcon9 =()=>(
+ <svg className="sidebar_icon"
+   fill="currentColor"
+    height="22"
+    width="22"
+     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M320 80C377.4 80 424 126.6 424 184C424 241.4 377.4 288 320 288C262.6 288 216 241.4 216 184C216 126.6 262.6 80 320 80zM96 152C135.8 152 168 184.2 168 224C168 263.8 135.8 296 96 296C56.2 296 24 263.8 24 224C24 184.2 56.2 152 96 152zM0 480C0 409.3 57.3 352 128 352C140.8 352 153.2 353.9 164.9 357.4C132 394.2 112 442.8 112 496L112 512C112 523.4 114.4 534.2 118.7 544L32 544C14.3 544 0 529.7 0 512L0 480zM521.3 544C525.6 534.2 528 523.4 528 512L528 496C528 442.8 508 394.2 475.1 357.4C486.8 353.9 499.2 352 512 352C582.7 352 640 409.3 640 480L640 512C640 529.7 625.7 544 608 544L521.3 544zM472 224C472 184.2 504.2 152 544 152C583.8 152 616 184.2 616 224C616 263.8 583.8 296 544 296C504.2 296 472 263.8 472 224zM160 496C160 407.6 231.6 336 320 336C408.4 336 480 407.6 480 496L480 512C480 529.7 465.7 544 448 544L192 544C174.3 544 160 529.7 160 512L160 496z"/></svg>
+);
 export const PageIcon1 = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -266,6 +273,7 @@ export const PersonalIcon = () => (
 );
 export const PersonIcon = () => (
   <svg
+  className="svg16"
     stroke="currentColor"
     fill="currentColor"
     stroke-width="0"
@@ -279,6 +287,7 @@ export const PersonIcon = () => (
 );
 export const BuildingIcon = () => (
   <svg
+  className="svg16"
     stroke="currentColor"
     fill="currentColor"
     stroke-width="0"
@@ -334,6 +343,10 @@ export const FilterIcon = () => (
     ></path>
   </svg>
 );
+export const FilterArrow =()=>(
+  <svg xmlns="http://www.w3.org/2000/svg" width="9" height="5" viewBox="0 0 9 5" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.205023 0.20084C0.478395 -0.0669465 0.921608 -0.0669465 1.19498 0.20084L4.20001 3.14456L7.20504 0.20084C7.4784 -0.0669465 7.92164 -0.0669465 8.19499 0.20084C8.46834 0.468633 8.46834 0.902801 8.19499 1.17059L4.69498 4.59917C4.42163 4.86694 3.97839 4.86694 3.70504 4.59917L0.205023 1.17059C-0.0683411 0.902801 -0.0683411 0.468633 0.205023 0.20084Z" fill="#2589F6"></path></svg>
+)
+
 export const DatePickerIcon = () => (
   <svg
     width="18"
@@ -480,13 +493,13 @@ export const Bell = () => (
 );
 export const Search = () => (
   <svg
+  className="svg16"
     stroke="currentColor"
     fill="none"
     stroke-width="2"
     viewBox="0 0 24 24"
     stroke-linecap="round"
     stroke-linejoin="round"
-    class="fa-search fa-search__v1"
     height="1em"
     width="1em"
     xmlns="http://www.w3.org/2000/svg"

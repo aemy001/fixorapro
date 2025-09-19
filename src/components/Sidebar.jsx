@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -9,7 +10,8 @@ import {
   SideIcon5,
   SideIcon6,
   SideIcon7,
-  SideIcon8
+  SideIcon8,
+  SideIcon9
 } from "./Icons";
 
 const navItems = [
@@ -25,8 +27,10 @@ const navItems = [
     ],
   },
   { label: "Services", href: "/services", icon: SideIcon5 },
+ 
   { label: "Invoices", href: "/invoices", icon: SideIcon6 },
   { label: "Settings", href: "/settings", icon: SideIcon7 },
+   { label: "Users", href: "/users", icon: SideIcon9 },
 ];
 
 export default function Sidebar() {
@@ -57,12 +61,14 @@ export default function Sidebar() {
 
   return (
     <>
-      <aside className="fixed left-0 top-0 w-[100px] bg-[#343655] gap-[0.25rem] px-1 flex flex-col items-center pb-3 pt-5 h-screen">
+      <aside className="fixed left-0 top-0 w-[100px] background-gradient-fa gap-[0.25rem] px-1 flex flex-col items-center pb-3 pt-5 h-screen">
         {/* Logo */}
-        <Link href="/" className="mb-2">
-          <div className="text-white font-bold">Logo</div>
+        <Link href="/" className="">
+          {/* <div className="text-white font-bold">Logo</div> */}
+          <Image src="/logo2.svg" height={34} width={34}
+          />
         </Link>
-        <hr className="h-[1px] sidehr bg-[#a0adb3] my-[6px] w-[73px]" />
+        <hr className="h-[1px] sidehr bg-[#cfcccc] my-[6px] w-[73px]" />
 
         {/* Links */}
         {navItems.map(({ label, href, icon: Icon, children }) => {
@@ -74,7 +80,7 @@ export default function Sidebar() {
                 ref={stockBtnRef}
                 onClick={toggleStock}
                 className={`flex flex-col items-center justify-center w-full h-[58px] rounded-[0.625rem]   ${
-                  isActive ? "bg-[#2589f6] text-white" : "text-[#A0ADB3] hover:bg-[#2589f6] hover:text-white"
+                  isActive ? "bg-[#0878AC] text-white" : "text-[#cfcccc] hover:bg-[#0878AC] hover:text-white"
                 }`}
               >
                 <Icon className="w-6 h-6 text-white" />
@@ -87,7 +93,7 @@ export default function Sidebar() {
               key={label}
               href={href}
               className={`flex flex-col items-center justify-center w-full gap-[0.25rem] h-[58px] rounded-[0.625rem]  ${
-                isActive ? "bg-[#2589f6] text-white " : "text-[#A0ADB3] hover:bg-[#2589f6] hover:text-white"
+                isActive ? "bg-[#0878AC] text-white " : "text-[#cfcccc] hover:bg-[#0878AC] hover:text-white"
               }`}
             >
               <Icon className="w-6 h-6 text-white" />
@@ -96,14 +102,14 @@ export default function Sidebar() {
           );
         })}
 
-        <hr className="h-[1px] sidehr bg-[#a0adb3] my-[6px] w-[73px] mt-auto" />
+        {/* <hr className="h-[1px] sidehr bg-[#cfcccc] my-[6px] w-[73px] mt-auto" />
         <Link
           href="/invite"
-          className="flex items-center gap-2 border border-[#A0ADB3] rounded-[10px] py-1 px-1.5 text-xs font-medium text-[#A0ADB3]  hover:text-white transition"
+          className="flex items-center gap-2 border border-[#cfcccc] rounded-[10px] py-1 px-1.5 text-xs font-medium text-[#cfcccc]  hover:text-white transition"
         >
 <SideIcon8/>{" "}
           Invite
-        </Link>
+        </Link> */}
       </aside>
 
       {/* Off-side Submenu stock */}

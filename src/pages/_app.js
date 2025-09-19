@@ -1,17 +1,13 @@
 import "@/styles/globals.css";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Roboto } from "next/font/google";
 import { useRouter } from "next/router";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const roboto = Roboto({
   subsets: ["latin"],
+  weight: ["400", "500", "700"], 
 });
 
 export default function App({ Component, pageProps }) {
@@ -26,7 +22,7 @@ export default function App({ Component, pageProps }) {
 
 
   return (
-    <div className={`page-wrapper ${geistSans.variable} ${geistMono.variable}`}>
+    <div className={`page-wrapper ${roboto.className}`}>
       {isAuthRoute ? (
         
       <Component {...pageProps} />
